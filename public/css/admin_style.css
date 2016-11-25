@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto';
+	font-size: 14px;
+	color: #444444;
+}
+.bootstrap-dialog .modal-header {
+   background-color:  #428bca;
+}
+.bootstrap-dialog .bootstrap-dialog-title {
+    color: #fff;
+    font-size: 16px;
+}
+.modal-dialog {
+    width: 450px;
+}
+
+.bd-box {
+    position: relative;
+    padding: 15px;
+    margin: 10px -10px;
+    border: solid #f7f7f9;
+    border-width: 2px 0 0;
+}
+
+.bd-box::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (min-width: 576px) {
+    .bd-box {
+        padding: 20px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        border-width: 2px;
+    }
+}
+.mg-bottom10 {
+    margin-bottom: 10px !important;
+}
+.padding-lr-60 {
+    padding: 0px 60px;
+}
+.top-buffer {
+    margin-top: 10px;
+}
+.right {
+    float: right;
+}
